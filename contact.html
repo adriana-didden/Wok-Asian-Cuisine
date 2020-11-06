@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Adriana J Didden-->
+    <title>Wok Asian Cuisine | Contact </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>Wok Asian Cuisine</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Our Menu</a></li>
+          <li><a href="order.html">Order Now</a></li>
+          <li><a class="activePage" href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <main class="contact">
+        <h2>Contact Us</h2>
+        <p class="contact">
+          Do you have dietary concerns? Questions about an upcoming event? Drop
+          us a line, and we'll get back to you soon!
+        </p>
+        <!--images optional-->
+        <form action="http://webdevbasics.net/scripts/demo.php" method="POST">
+          <fieldset>
+            <legend>Contact Information:</legend>
+            <label for="myName">*Name:</label>
+            <input id="myName" type="text" name="myName" required="required" />
+            <br />
+
+            <label for="myAddress">Address:</label>
+            <input id="myAddress" type="text" name="myAddress" /><br />
+
+            <label for="myCity">City:</label>
+            <input id="myCity" type="text" name="myCity" /><br />
+
+            <label for="myState">State:</label>
+            <select name="myState" id="myState">
+              <option value="AL">Alabama</option>
+              <option value="AK">Alaska</option>
+              <option value="AZ">Arizona</option>
+              <option value="AR">Arkansas</option>
+              <option value="CA">California</option>
+              <option value="CO">Colorado</option>
+              <option value="CT">Connecticut</option>
+              <option value="DE">Delaware</option>
+              <option value="DC">District Of Columbia</option>
+              <option value="FL">Florida</option>
+              <option value="GA">Georgia</option>
+              <option value="HI">Hawaii</option>
+              <option value="ID">Idaho</option>
+              <option value="IL">Illinois</option>
+              <option value="IN">Indiana</option>
+              <option value="IA">Iowa</option>
+              <option value="KS">Kansas</option>
+              <option value="KY">Kentucky</option>
+              <option value="LA">Louisiana</option>
+              <option value="ME">Maine</option>
+              <option value="MD">Maryland</option>
+              <option value="MA">Massachusetts</option>
+              <option value="MI">Michigan</option>
+              <option value="MN">Minnesota</option>
+              <option value="MS">Mississippi</option>
+              <option value="MO">Missouri</option>
+              <option value="MT">Montana</option>
+              <option value="NE">Nebraska</option>
+              <option value="NV">Nevada</option>
+              <option value="NH">New Hampshire</option>
+              <option value="NJ">New Jersey</option>
+              <option value="NM">New Mexico</option>
+              <option value="NY">New York</option>
+              <option value="NC">North Carolina</option>
+              <option value="ND">North Dakota</option>
+              <option value="OH">Ohio</option>
+              <option value="OK">Oklahoma</option>
+              <option value="OR">Oregon</option>
+              <option value="PA">Pennsylvania</option>
+              <option value="RI">Rhode Island</option>
+              <option value="SC">South Carolina</option>
+              <option value="SD">South Dakota</option>
+              <option value="TN">Tennessee</option>
+              <option value="TX">Texas</option>
+              <option value="UT">Utah</option>
+              <option value="VT">Vermont</option>
+              <option value="VA">Virginia</option>
+              <option value="WA">Washington</option>
+              <option value="WV">West Virginia</option>
+              <option value="WI">Wisconsin</option>
+              <option value="WY">Wyoming</option></select
+            ><br />
+
+            <label for="myPhone">*Phone:</label>
+            <input id="myPhone" type="number" name="myPhone" required="required"/>
+
+            <label for="myEmail">*Email:</label>
+            <input id="myEmail" type="email" name="myEmail" required="required"/><br />
+
+            <label for="myMethod">Preferred Method of Contact:</label>
+            <input class="myMethod" id="email" type="radio" name="email" value="Email"/>
+            <label for="email">Email</label>
+            <input class="myMethod" id="phone" type="radio" name="phone" value="phone" />
+            <label for="phone">Phone</label><br />
+
+            <label for="myComments">*Comments:</label> <br />
+            <textarea name="myComments" id="myComments" rows="5" cols="43" required="required"></textarea><br />
+
+            <input type="submit" id="mySubmit" value="Send Now" />
+          </fieldset>
+        </form>
+      </main>
+
+      <footer>
+        <p>Wok Asian Cuisine</p>
+        <p>Copyright &copy; Wok - All Rights Reserved</p>
+        <p>This site is for educational purposes only.</p>
+      </footer>
+    </div>
+  </body>
+</html>
